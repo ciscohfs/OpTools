@@ -17,10 +17,14 @@ sleep 0.25
 echo "......."
 read -p "you have linux(debian distros) or windows ? W/L " yourOP
 
+
 #create if for tool
 if [ $yourOP == "W" ]; then
     echo "W"
-    bash OpTools.sh
+    echo "apps list :"
+    echo "
+    1.chrome
+    2.vscode"
 elif [ $yourOP == "w" ]; then
     echo "w"
     bash OpTools.sh
