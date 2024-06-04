@@ -5,16 +5,16 @@
 echo "hello my dear
 thanks for clone this tool"
 echo "."
-sleep 0.5
-echo "."
-sleep 0.5
-echo "."
-sleep 0.5
-echo "."
-sleep 0.5
-echo "."
-sleep 0.5
-echo "."
+sleep 0.25
+echo ".."
+sleep 0.25
+echo "..."
+sleep 0.25
+echo "....."
+sleep 0.25
+echo "......"
+sleep 0.25
+echo "......."
 read -p "you have linux(debian distros) or windows ? W/L " yourOP
 
 #create if for tool
