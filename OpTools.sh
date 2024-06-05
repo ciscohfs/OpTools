@@ -27,7 +27,11 @@ if [ $yourOP == "W" ]; then
     2.vscode"
     read -p "pick app as number : " win1
     if [ $win1 == "1" ]; then
-        echo "chrome"
+        curl https://dl2.soft98.ir/soft/g/Google.Chrome.125.0.6422.142.x64.zip?1717590442
+        echo "when see error
+        this is link : https://dl2.soft98.ir/soft/g/Google.Chrome.125.0.6422.142.x64.zip?1717590442"
+        echo "Done!"
+
         echho "created win code soon ..."
     elif [ $win1 == "2" ]; then
         echo "vscode" 
