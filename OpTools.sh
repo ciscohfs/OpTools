@@ -25,12 +25,29 @@ if [ $yourOP == "W" ]; then
     echo "
     1.chrome
     2.vscode"
+    read -p "pick app as number : " win1
+    if [ $win1 == "1" ]; then
+        echo "chrome"
+        echho "created win code soon ..."
+    elif [ $win1 == "2" ]; then
+        echo "vscode" 
+    fi
 elif [ $yourOP == "w" ]; then
     echo "w"
     bash OpTools.sh
 elif [ $yourOP == "L" ]; then
     echo "L"
-    bash OpTools.sh
+    echo "apps list :"
+    echo "
+    1.chrome
+    2.vscode"
+    read -p "pick app as number : " linux1
+    if [ $linux1 == "1" ]; then
+        echo "chrome"
+        echo "created win code soon ..."
+    elif [ $linux1 == "2" ]; then
+        echo "vscode" 
+    fi
 elif [ $yourOP == "l" ]; then
     echo "l"
     bash OpTools.sh
